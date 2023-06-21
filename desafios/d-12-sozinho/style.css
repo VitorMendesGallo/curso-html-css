@@ -13,43 +13,80 @@
   box-sizing: border-box;
 }
 
-header{
-  background-color:#000000 ;
-  color: #FFFFFF;
+header {
+  background-color: #000000;
+  color: #ffffff;
+  margin-bottom: 4rem;
 }
 
-.titulo-pagina{
-   padding-top: 50px;
-   text-align: center;
-   font-family: var(--font-titulo);
-   font-size: clamp(4rem,10vw + 0.1rem,8rem);
-}
-
-p#autor{
+.titulo-pagina {
+  padding-top: 50px;
   text-align: center;
-  color: #FFFFFF;
+  font-family: var(--font-titulo);
+  font-size: clamp(2rem, 10vw + 0.1rem, 8rem);
+}
+
+p#autor {
+  text-align: center;
+  color: #ffffff;
   padding-bottom: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: clamp(1rem,2vw + 0.1rem,1.5rem);
-
+  font-size: clamp(1rem, 2vw + 0.1rem, 1.5rem);
 }
 
-p#autor > a {
+.link {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: bold;
 }
 
-p#autor > a:hover{
+.link:hover {
   text-decoration: underline;
 }
 
-.caixa-padrao{
-  padding:4em 2em ;
-
+.paragrafo-padrao {
+  padding: 0 0 4rem 2rem;
+  font-family: var(--font-texto);
+  font-size: clamp(1rem, 3.3vw + 0.1rem, 3rem);
+  line-height: 2em;
 }
 
-.paragrafo-padrao{
+.caixa-imagem-1 {
+  padding: 5rem 0;
+  background: black url("./imagens/background001.jpg") right center fixed;
+  background-size: cover;
+  margin-bottom: 4rem;
+  box-shadow: inset rgba(0, 0, 0, 0.542) 4px 5px 20px 0px;
+}
+
+.paragrafo-imagem {
+  display: inline-block;
   font-family: var(--font-texto);
-  font-size: clamp(1rem,3vw + 0.1rem,3rem);
+  font-size: clamp(1rem, 3.3vw + 0.1rem, 3rem);
+  margin-left: 2rem;
+  padding: 0.5rem;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.496);
+  line-height: 2em;
+}
+
+.caixa-imagem-2 {
+  padding: 5rem 0;
+  background: black url("./imagens/background002.jpg") right center fixed;
+  background-size: cover;
+  margin-bottom: 4rem;
+  box-shadow: inset rgba(0, 0, 0, 0.542) 4px 5px 20px 0px;
+}
+
+footer {
+  background-color: black;
+  padding: 10px 0px;
+  margin-top: 2rem;
+}
+
+footer > p {
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: clamp(1rem, 2vw + 0.1rem, 1.5rem);
 }
