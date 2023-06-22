@@ -47,7 +47,7 @@ p#autor {
 .paragrafo-padrao {
   padding: 0 0 4rem 2rem;
   font-family: var(--font-texto);
-  font-size: clamp(1rem, 3.3vw + 0.1rem, 3rem);
+  font-size: clamp(0.8rem, 3.3vw + 0.1rem, 3rem);
   line-height: 2em;
 }
 
@@ -62,9 +62,9 @@ p#autor {
 .paragrafo-imagem {
   display: inline-block;
   font-family: var(--font-texto);
-  font-size: clamp(1rem, 3.3vw + 0.1rem, 3rem);
-  margin-left: 2rem;
-  padding: 0.5rem;
+  font-size: clamp(0.8rem, 3.3vw + 0.1rem, 3rem);
+  margin-left: 1.7rem;
+  padding: 0.3rem;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.496);
   line-height: 2em;
