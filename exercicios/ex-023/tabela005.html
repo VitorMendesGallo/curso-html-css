@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 450px ;
+        }
+
+        table > caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            border: solid 1px black;
+            padding: 10px;
+
+        }
+
+        td , th {
+            border: solid 1px black;
+            padding: 10px ;
+        }
+
+        .col-nome{
+            background-color: red;
+        }
+        
+
+        .col-group {
+            background-color:lightgray;
+        }
+
+
+    </style>
+  </head>
+  <body>
+    <h1>Estilizando colunas</h1>
+    <table>
+      <colgroup>
+        <col class="col-nome" />
+        <col class="col-group" span="3">
+        <col />
+        <col />
+      </colgroup>
+      <caption>
+        Cadastro
+      </caption>
+      <thead>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Profissão</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Maria</td>
+            <td>22</td>
+            <td>F</td>
+            <td>Enfermeira</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>35</td>
+            <td>M</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <td>Vitor</td>
+            <td>22</td>
+            <td>M</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Chai</td>
+            <td>18</td>
+            <td>M</td>
+            <td>Estrela</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
