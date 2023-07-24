@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        div{
+            margin-bottom: 15px;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Testando formulario</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+      <div>
+        <label for="inome">Usuário: </label
+        ><input
+          type="text"
+          name="nome"
+          id="inome"
+          required
+          placeholder="ex:vitinho27"
+          size="12"
+          maxlength="15"
+          minlength="5"
+          autocomplete="name"
+        />
+      </div>
+      <div>
+        <label for="iemail">Email: </label>
+        <input
+          type="email"
+          name="email"
+          id="iemail"
+          required
+          placeholder="ex:vitor22@email.com"
+          size="20"
+          maxlength="20"
+          minlength="10"
+          autocomplete="email"
+        />
+      </div>
+      <div>
+        <label for="isenha">Senha: </label
+        ><input
+          type="password"
+          name="senha"
+          id="isenha"
+          required
+          size="10"
+          minlength="8"
+          maxlength="20"
+          autocomplete="current-password"
+        />
+      </div>
+      <div><input type="submit" value="Enviar" /></div>
+    </form>
+  </body>
+</html>
