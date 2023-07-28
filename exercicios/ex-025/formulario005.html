@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testando formulários</title>
+  </head>
+  <body>
+    <h1>Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+      <p>
+        <label for="icor">Escolha uma cor: </label>
+        <input type="color" name="cor" id="icor" value="#ff00ff" />
+      </p>
+      <p>
+        <label for="isatisfacao">Qual é a sua Satisfação</label
+        ><input
+          type="range"
+          name="satisfação"
+          id="isatisfacao"
+          min="1"
+          max="10"
+          value="5"
+        />
+      </p>
+      <p>
+        <label for="idoc">Nos envie uma imagem</label>
+        <input type="file" name="doc " id="idoc " />
+      </p>
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </p>
+    </form>
+  </body>
+</html>
