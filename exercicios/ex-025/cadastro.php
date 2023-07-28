@@ -1,1 +1,0 @@
-Você ainda não sabe PHP então finja que suas informações foram enviadas para algum lugar !
