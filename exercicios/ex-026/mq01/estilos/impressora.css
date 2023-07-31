@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+menu{
+    display: none;
+}
+
+main{
+    width: 100%;
+}
+
+footer>p{
+    display: none;
+}
+
+footer::after{
+    content: "Impresso de noticias.com.br";
+}
