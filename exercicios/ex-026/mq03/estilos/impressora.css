@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*Configurações para Impressoras*/
+
+main{
+    border: solid 2px black;
+}
+
+main::after{
+    content: "Versão Impressa do Site Mobile First";
+}
+
+h1{
+    text-shadow: none;
+    color: black;
+}
+
+img#phone {
+    display: none;
+  }
+  img#tablet {
+    display: none;
+  }
+  img#pc {
+    display: none;
+  }
+  img#tv {
+    display: none;
+  }
+  img#print {
+    display: block;
+  }
