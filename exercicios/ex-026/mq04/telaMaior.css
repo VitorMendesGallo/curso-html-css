@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span#burger {
+    display: none;
+}
+
+menu#itens{
+    display: block;
+    padding-right: 20px;
+}
+
+menu#itens li{
+    display: inline;
+}
+
+menu#itens li > a {
+    display: inline;
+    padding: 3px;
+    font-size: 1.2em;
+    margin-right: 10px;
+
+}
